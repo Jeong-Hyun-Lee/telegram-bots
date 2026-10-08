@@ -7,3 +7,6 @@
 # Python
 __pycache__/
 .venv/
+
+# 도구 상태 파일
+.omc/
