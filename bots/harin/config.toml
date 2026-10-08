@@ -1,0 +1,6 @@
+name = "하린"
+error_message = "…잠깐 연락이 잘 안 되네. 이따 다시 말해."
+
+# 먼저 연락: 마지막 대화 후 idle_hours 지나면, active_hours 시간대(시작시, 끝시)에만
+idle_hours = 12
+active_hours = [12, 23]
