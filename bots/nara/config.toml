@@ -1,0 +1,6 @@
+name = "나라"
+error_message = "앗 잠깐 폰이 이상해 ㅠㅠ 조금 있다 다시 말해줘!"
+
+# 먼저 연락: 마지막 대화 후 idle_hours 지나면, active_hours 시간대(시작시, 끝시)에만
+idle_hours = 6
+active_hours = [10, 22]

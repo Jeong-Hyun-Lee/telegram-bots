@@ -1,0 +1,9 @@
+# 비밀 값, 개인 대화 기록
+.env
+*.db
+*.db.bak
+*.key
+
+# Python
+__pycache__/
+.venv/

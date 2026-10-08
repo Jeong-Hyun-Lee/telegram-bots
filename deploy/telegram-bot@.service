@@ -1,0 +1,16 @@
+[Unit]
+Description=Telegram bot %i
+After=network-online.target
+Wants=network-online.target
+
+[Service]
+User=ubuntu
+WorkingDirectory=/home/ubuntu/telegram-bots
+ExecStart=/home/ubuntu/telegram-bots/.venv/bin/python bot.py %i
+Restart=always
+RestartSec=10
+Environment=PYTHONUNBUFFERED=1
+Environment=TZ=Asia/Seoul
+
+[Install]
+WantedBy=multi-user.target
